@@ -1,0 +1,39 @@
+aside.main-sidebar
+    section.sidebar
+        .user-panel
+            .pull-left.image
+                img(src='/images/profile.jpg',alt="User image").img-circle
+            .pull-left.info
+                p Bima Saputra
+                a(href='#')
+                    i.fa.fa-circle.text-success
+                    | Online
+        
+        ul.sidebar-menu
+            
+            li.treeview
+                a(href='/dashboard')
+                    i.fa.fa
+                    span
+                        | Dashboard
+
+
+             li.treeview
+                a(href='#')
+                    i.fa.fa-align-left
+                    span
+                        | Menu
+                    span.pull-right-container
+                        i.fa.fa-angle-left.pull-right
+                
+
+                ul.treeview-menu
+                    li
+                        a(href='/customers')
+                            i.fa.fa-edit
+                            | Data Pegawai
+                    li
+                        a(href='/gaji')
+                            i.fa.fa-edit
+                            | Gaji Pegawai
+            

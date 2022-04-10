@@ -1,0 +1,33 @@
+header.main-header
+    a(href='/').logo
+        span.logo-mini
+            img(src='/images/logokecil.png',alt="User image") 
+        span.logo-lg
+            <b>PORTAL BRI</b>
+    nav(role='navigation').navbar.navbar-static-top
+        a(href='#', role='button', data-toggle='offcanvas').sidebar-toggle
+            span.sr-only Toggle Navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        div.navbar-custom-menu
+            ul.nav.navbar-nav
+                li.dropdown.messages-menu
+                    
+
+                    li.dropdown.notifications-menu
+                        
+
+                    
+                    li.dropdown.user.user-menu
+                        a(href='#',data-toggle='dropdown').dropdown-toggle
+                            img(src='/images/profile.jpg',alt='UserImage').user-image
+                            span.hidden-xs
+                                | Bima Saputra
+                        ul.dropdown-menu
+                            li.user-header
+                                p
+                                    | Bima Saputra - BRI PURWOKERTO
+                                .pull-center
+                                    a(href='/logout').btn.btn-default.btn-flat
+                                        | Sign out
